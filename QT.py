@@ -65,7 +65,8 @@ class WindowClass(QMainWindow, form_class) :
             # site = self.lineEdit_SITE.text()
             id_text = self.lineEdit_ID.text()
             pw = self.lineEdit_PWD.text()
-            msg_info = "id = {0},  pw = {1}".format(id_text, pw)
+            # 확인용 팝업
+            msg_info = "id = {0},  pw = {1}".format(id_text, pw[:1]+"******")
             QMessageBox.about(self, "message", msg_info)
 
             # self._config.SaveConfig(self._config.section_main, self._config.key_site, site)

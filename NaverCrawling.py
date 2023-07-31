@@ -15,7 +15,7 @@ options = webdriver.ChromeOptions()
 # options.add_experimental_option('excludeSwitches', ['enable-logging']) # usb에러
 # options.add_argument("headless") # 브라우저 없이 실행
 
-driver = webdriver.Chrome('D:/GitHub/Make-Crawling/Naver_News_Crawling/chromedriver.exe')
+driver = webdriver.Chrome('D:/GitHub/Naver_News_Crawling/chromedriver.exe')
 
 
 
